@@ -11,10 +11,13 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)  
+    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
-  - [Setup](#setup)  
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Run the application](#run-the-application)
+  - [Run the tests](#run-the-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -47,7 +50,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -55,8 +57,9 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+
 ```
-  Ruby 
+  Ruby
 ```
 
 ### Setup
@@ -70,6 +73,27 @@ Clone this repository to your desired folder:
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Install
+
+Install all project dependencies by running the command below
+
+```
+  $ git --version
+  $ ruby --version && irb
+```
+
+### Run the application
+
+```
+  $ ruby solver.rb
+```
+
+### Run the tests
+
+```
+  $ rspec spec
+```
 
 ## 👥 Authors <a name="authors"></a>
 
