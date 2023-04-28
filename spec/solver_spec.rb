@@ -27,7 +27,7 @@ describe Solver do
 
   context '#fizzbuzz' do
     it 'divisible by 3' do
-      expect(@solver.fizzbuzz(15)).to eq('fizz')
+      expect(@solver.fizzbuzz(21)).to eq('fizz')
     end
 
     it 'divisible by 5' do
