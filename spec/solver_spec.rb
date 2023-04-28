@@ -24,4 +24,22 @@ describe Solver do
       expect(@solver.reverse('god')).to eq('dog')
     end
   end
+
+  context '#fizzbuzz' do
+    it 'divisible by 3' do
+      expect(@solver.fizzbuzz(15)).to eq('fizz')
+    end
+
+    it 'divisible by 5' do
+      expect(@solver.fizzbuzz(10)).to eq('buzz')
+    end
+
+    it 'divisible by both 3 and 5' do
+      expect(@solver.fizzbuzz(15)).to eq('fizzbuzz')
+    end
+
+    it 'not divisible by 3 or 5' do
+      expect(@solver.fizzbuzz(1)).to eq('1')
+    end
+  end
 end
